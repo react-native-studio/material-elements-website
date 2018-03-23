@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# **Install**
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-## Commands
+## install  material-elements
+运行 `npm install --save material-elements` 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+如果你安装了yarn，可以使用 `yarn add material-elements`
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## install react-native-vector-icons
+material-elements 依赖于react-native-vector-icons <br/>
+运行 `npm install --save react-native-vector-icons`
+
+如果你安装了yarn，你可以使用`yarn add react-native-vector-icons`
+
+将vector-icons link 到工程中<br/>
+`react-native link react-native-vector-icons`
+
+## usage
+
+```js
+import {Button} from 'material-elements';
+
+<Button text="text" onPress={()=>{}}/>
+```
+

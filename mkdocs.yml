@@ -1,7 +1,9 @@
 # Project pages
 pages:
-    - Home: index.md
-    - About: about.md
+    - Install: index.md
+#    - About: about.md
+    - Component:
+        - Avatar: Avatar.md
 # Project information
 site_name: 'Material Elements'
 site_description: 'A Material Design for React Native'
@@ -9,7 +11,7 @@ site_author: 'react-native-studio'
 site_url: 'https://react-native-studio.github.io/material-elements/'
 
 # Repository
-repo_name: 'react-native-studio/material-elements'
+repo_name: 'material-elements'
 repo_url: 'https://github.com/react-native-studio/material-elements'
 
 # Copyright
@@ -19,7 +21,7 @@ copyright: 'Copyright &copy; 2017 - 2018 Lmy'
 theme:
   name: 'material'
   custom_dir: 'theme'
-  language: 'en'
+  language: 'zh'
   palette:
     primary: 'indigo'
     accent: 'indigo'
