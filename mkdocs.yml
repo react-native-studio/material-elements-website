@@ -1,0 +1,9 @@
+site_name: Material Elements
+pages:
+    - Home: index.md
+    - About: about.md
+theme:
+   name: material
+site_url: https://react-native-studio.github.io/material-elements/
+repo_url: https://github.com/react-native-studio/material-elements
+edit_uri: ?query=root/path/docs/
