@@ -27,4 +27,4 @@ import { Avatar } from 'material-elements';
 |icon|{name:string,size:number,type:string,color:string}|无|显示在avatar中的icon|
 |image|Image.props|无|可设置所有Image属性|
 |size|number|48|avatar的尺寸|
-
+|style|{container:ViewPropTypes.style,content:Text.style}||content作用于Text组件|
