@@ -3,7 +3,7 @@ pages:
     - Install: index.md
 #    - About: about.md
     - Component:
-        - Avatar: Avatar.md
+        - Avatar: https://github.com/react-native-studio/material-elements/edit/master/docs/Avatar.md
 # Project information
 site_name: 'Material Elements'
 site_description: 'A Material Design for React Native'
