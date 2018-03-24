@@ -37,22 +37,24 @@
     </div>
   {% endif %}
   <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
+    <div class="md-footer-meta__inner md-grid_" style="align-items: center;flex-direction: row;justify-content: center;display: flex;">
       <div class="md-footer-copyright">
         {% if config.copyright %}
           <div class="md-footer-copyright__highlight">
             {{ config.copyright }}
           </div>
         {% endif %}
-        powered by
+        powered  by
         <!--<a href="http://www.mkdocs.org">Lmy</a>
         and-->
-        <a href="https://github.com/react-native-studio">
+        <a style="color: #00b0ff" href="https://github.com/react-native-studio">
           React Native Studio</a>
       </div>
+      <div style="position: absolute;right: 20px">
       {% block social %}
         {% include "partials/social.html" %}
       {% endblock %}
+      </div>
     </div>
   </div>
 </footer>
